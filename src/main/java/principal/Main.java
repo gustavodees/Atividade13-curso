@@ -10,11 +10,12 @@ public class Main {
         double total = 0;
 
 
-        int a = Integer.parseInt(JOptionPane.showInputDialog( "1| Cachorro Quente | R$ 4.00 " + "\n"
-                                                                    +  "2| X-Salada      | R$ 4.50 " +"\n"
-                                                                    +  "3| X-Bacon      | R$ 5.00 " +"\n"
-                                                                    +  "4| Torrada Simples| R$2.00" +"\n"
-                                                                    +  "5| Refrigerante     | R$ 1.50 " ));
+        int a = Integer.parseInt(JOptionPane.showInputDialog("""
+                1| Cachorro Quente | R$ 4.00\s
+                2| X-Salada      | R$ 4.50\s
+                3| X-Bacon      | R$ 5.00\s
+                4| Torrada Simples| R$2.00
+                5| Refrigerante     | R$ 1.50\s"""));
 
 
         if(a==1){
